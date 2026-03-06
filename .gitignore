@@ -1,0 +1,49 @@
+HELP.md
+
+### Maven
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Logs
+*.log
+
+### Application properties sensibles
+application-local.properties
+application-dev.properties
+.env
+
+### OS files
+.DS_Store
+Thumbs.db
+
+### STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code
+.vscode/
+
+### Build folders
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
